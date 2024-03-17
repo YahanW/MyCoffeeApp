@@ -1,0 +1,17 @@
+W:\ASP_NET_Tutorial\MyCoffeeApp\MyCoffeeApp\MyCoffeeApp\bin\Debug\netstandard2.0\MyCoffeeApp.deps.json
+W:\ASP_NET_Tutorial\MyCoffeeApp\MyCoffeeApp\MyCoffeeApp\bin\Debug\netstandard2.0\MyCoffeeApp.dll
+W:\ASP_NET_Tutorial\MyCoffeeApp\MyCoffeeApp\MyCoffeeApp\bin\Debug\netstandard2.0\MyCoffeeApp.pdb
+W:\ASP_NET_Tutorial\MyCoffeeApp\MyCoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\MyCoffeeApp.csproj.AssemblyReference.cache
+W:\ASP_NET_Tutorial\MyCoffeeApp\MyCoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\MyCoffeeApp.GeneratedMSBuildEditorConfig.editorconfig
+W:\ASP_NET_Tutorial\MyCoffeeApp\MyCoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+W:\ASP_NET_Tutorial\MyCoffeeApp\MyCoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+W:\ASP_NET_Tutorial\MyCoffeeApp\MyCoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\Views\CoffeeEquipmentPage.xaml.g.cs
+W:\ASP_NET_Tutorial\MyCoffeeApp\MyCoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\MyCoffeeApp.AssemblyInfoInputs.cache
+W:\ASP_NET_Tutorial\MyCoffeeApp\MyCoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\MyCoffeeApp.AssemblyInfo.cs
+W:\ASP_NET_Tutorial\MyCoffeeApp\MyCoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\MyCoffeeApp.csproj.CoreCompileInputs.cache
+W:\ASP_NET_Tutorial\MyCoffeeApp\MyCoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\XamlC.stamp
+W:\ASP_NET_Tutorial\MyCoffeeApp\MyCoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\MyCoffeeApp.dll
+W:\ASP_NET_Tutorial\MyCoffeeApp\MyCoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\refint\MyCoffeeApp.dll
+W:\ASP_NET_Tutorial\MyCoffeeApp\MyCoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\MyCoffeeApp.pdb
+W:\ASP_NET_Tutorial\MyCoffeeApp\MyCoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\ref\MyCoffeeApp.dll
+W:\ASP_NET_Tutorial\MyCoffeeApp\MyCoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs

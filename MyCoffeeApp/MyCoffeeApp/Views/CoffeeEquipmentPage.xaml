@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage  x:Class="MyCoffeeApp.Views.CoffeeEquipmentPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:model="clr-namespace:MyCoffeeApp.Models"
+    xmlns:mvvm="clr-namespace:MvvmHelpers;assembly=MvvmHelpers"
+    xmlns:viewmodels="clr-namespace:MyCoffeeApp.ViewModels"
+    x:Name="CoffeePage"
+    x:DataType="viewmodels:CoffeeEquipmentViewModel"
+    BackgroundColor="White">
+
+    <ContentPage.BindingContext>
+        <viewmodels:CoffeeEquipmentViewModel />
+    </ContentPage.BindingContext>
+
+    <ListView 
+        CachingStrategy="RecycleElement"
+        BackgroundColor="Transparent"
+        ItemsSource="{Binding CoffeeGroups}"
+        HasUnevenRows="True"
+        IsGroupingEnabled="True"
+        GroupDisplayBinding="{Binding Key}"
+        SeparatorVisibility="None"
+        IsPullToRefreshEnabled="True"
+        IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+        RefreshCommand="{Binding RefreshCommand}"
+        RefreshControlColor="Red"
+        SelectedItem="{Binding SelectedCoffee, Mode=TwoWay}">
+
+        <ListView.ItemTemplate>
+            <DataTemplate x:DataType="model:Coffee">
+                <ViewCell>
+                    <ViewCell.ContextActions>
+                        <MenuItem Text="Delete" IsDestructive="True"/>
+                    </ViewCell.ContextActions>
+                    <Grid Padding="10">
+                        <Frame CornerRadius="20"
+                               HasShadow="True">
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="{Binding Image}"
+                                       WidthRequest="88"/>
+                                <StackLayout VerticalOptions="Center">
+                                    <Label VerticalOptions="Center"
+                                            FontSize="Large"
+                                            Text="{Binding Name}"/>
+                                    <Label VerticalOptions="Center"
+                                            FontSize="Large"
+                                            Text="{Binding Roaster}"/>
+                                </StackLayout>
+                                <Button 
+                                    VerticalOptions="Center"
+                                    Text="Favorite"
+                                        Command="{Binding Source={RelativeSource
+                                    AncestorType={x:Type viewmodels:CoffeeEquipmentViewModel}},Path=FavoriteCommand}"
+                                        CommandParameter="{Binding .}"/>
+                            </StackLayout>
+                        </Frame>
+
+                    </Grid>
+                </ViewCell>
+
+            </DataTemplate>
+        </ListView.ItemTemplate>
+        <ListView.Footer>
+            <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
+                <Button Text="Load more" />
+            </StackLayout>
+        </ListView.Footer>
+    </ListView>
+</ContentPage>

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "d/IL/FGZsrATtLr4ch2axHTvFoNUk9GVEhfaGGkkuAYOtNxtV3BQVzBDm4fZMLCNIAAHlFRLK6SkyC6SfIVDNQ==",
+  "success": true,
+  "projectFilePath": "W:\\ASP_NET_Tutorial\\MyCoffeeApp\\MyCoffeeApp\\MyCoffeeApp.iOS\\MyCoffeeApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
